@@ -1,0 +1,13 @@
+### users login
+GET http://localhost:8082/users/login
+
+### create new users
+POST http://localhost:8082/users
+content-type: application/json
+
+{
+    "first_name" : "Romdoni",
+    "last_name" : "Agung",
+    "email" : "romdoni@email.com",
+    "password" : "password"
+}
