@@ -1,5 +1,6 @@
 ### search users
 GET http://localhost:8082/internal/users/search?status=active
+X-Public: false
 
 
 ### users login
@@ -13,7 +14,8 @@ content-type: application/json
 
 
 ### get user by user_id
-GET http://localhost:8082/users/1
+GET http://localhost:8082/users/3
+X-Public: false
 
 
 ### create new users
